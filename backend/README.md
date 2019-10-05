@@ -1,1 +1,1 @@
-Empty
+https://start.spring.io/
