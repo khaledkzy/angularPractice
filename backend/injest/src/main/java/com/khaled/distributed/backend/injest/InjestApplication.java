@@ -13,6 +13,11 @@ public class InjestApplication implements CommandLineRunner {
 
 	private static final Logger log = LoggerFactory.getLogger(InjestApplication.class);
 
+	/**
+	 * This creates an instance of the interface.
+	 * Springboot will be trying to find something called BookRepository
+	 * Then it will create it for us.
+	 */
 	@Autowired
 	private BookRepository repository;
 

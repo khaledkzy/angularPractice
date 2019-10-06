@@ -10,10 +10,11 @@ public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column
     private Long id;
 
-    @Column
+    /**
+     * 🔮 is used with the findByName
+     */
     private String name;
 
     public Book() {

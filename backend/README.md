@@ -1,16 +1,7 @@
 BEFORE STARTING
 =
 + Java 11 installed.
-+ POSTGRES
-
-
-
-
-
-
-
-
-
++ PostgreSQL
 
 #### To Genrate the spring app.
 > https://start.spring.io/
@@ -32,17 +23,23 @@ spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 spring.datasource.initialization-mode=always
 ```
 
+ENDPOINTS
+=
 
-POSTGRES
+
+PostgreSQL
 =
 
 > https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
 
-POSTGRESS MOST IMPORTANT COMMANDS
+PostgreSQL frequently used commands:
 ```sql
 SELECT * FROM books;
 \dt
 
 ```
+
+
+
 
 
