@@ -20,8 +20,17 @@ public class Book {
     public Book() {
     }
 
+    /**
+     * The constructor method
+     * @param name
+     */
     public Book(String name) {
         this.name = name;
+    }
+
+    public Book(String name, Long id) {
+        this.name = name;
+        this.id = id;
     }
 
     @Override
