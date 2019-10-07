@@ -43,7 +43,12 @@ public class BookController {
 
     @GetMapping("/findById/{id}")
     public Optional<Book> findById(@PathVariable long id){
-        return bookRepository.findById(id);
+        Optional<Book> book = bookRepository.findById(id);
+        if(book.isEmpty())  {
+            throw new BookNotFoundException("id-" + id);
+        }
+        return book;
+
     }
 
     @GetMapping("/findByName/{name}")
