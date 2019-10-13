@@ -1,0 +1,75 @@
+.drop-box {
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    border: 5px dashed rgb(40, 6, 83);
+    text-align: center;
+    padding: 40px;
+}
+
+.drag-over-title {
+    display: none;
+}
+
+.drop-box.dragover {
+    opacity: 0.6;
+}
+
+.drop-box.dragover .drag-over-title {
+    display: block;
+}
+
+.drop-box.dragover .drag-in-title {
+    display: none;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.container {
+    margin:  !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(-45deg, #525cee, #360238, #23a6d5, #03ffc4);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+h1 {
+    font-weight: 300;
+}
+
+h3 {
+    color: #eee;
+    font-weight: 100;
+}
+
+h5 {
+    color: #eee;
+    font-weight: 300;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #ddd;
+}

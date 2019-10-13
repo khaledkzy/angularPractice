@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e1b930f-4d3c-4eda-becf-806ffee09488" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/BookNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/CustomExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/injest8/src/main/java/com/khaled/injest/InjestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/styles.sass" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/injest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +32,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/injest/src/main/java/com/khaled/distributed/backend/injest/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
+            <state relative-caret-position="693">
               <caret line="58" column="1" selection-start-line="3" selection-end-line="58" selection-end-column="1" />
             </state>
           </provider>
@@ -502,6 +504,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -516,7 +519,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32938075" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3566265" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3566265" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -766,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/injest/src/main/java/com/khaled/distributed/backend/injest/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="693">
           <caret line="58" column="1" selection-start-line="3" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
