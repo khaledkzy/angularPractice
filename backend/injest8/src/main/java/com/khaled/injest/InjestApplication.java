@@ -30,9 +30,9 @@ public class InjestApplication implements CommandLineRunner {
 
 		log.info("StartApplication...");
 
-		repository.save(new Book("Javax"));
-		repository.save(new Book("Node"));
-		repository.save(new Book("Python"));
+		repository.save(new Book("Javax", "Javax"));
+		repository.save(new Book("Node", "Javax"));
+		repository.save(new Book("Python", "Javax"));
 
 		System.out.println("\nfindAll()");
 		repository.findAll().forEach(x -> System.out.println(x));
