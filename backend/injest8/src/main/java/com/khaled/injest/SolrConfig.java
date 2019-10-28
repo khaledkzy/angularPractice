@@ -17,17 +17,19 @@ import org.springframework.data.solr.repository.config.EnableSolrRepositories;
 @ComponentScan
 public class SolrConfig {
 
+    @Value("${solrLink}")
+    private String solrLink;
+
     @Autowired
     BookRepository bookRepository;
 
     @Autowired
     SolrBookRepository solrBookRepository;
 
-    @Value("${solrLink}")
-    private String solrLink;
+
     @Bean
     public SolrClient solrClient() {
-        return new HttpSolrClient.Builder("http://127.0.0.1:8983/solr").build();
+        return new HttpSolrClient.Builder(solrLink).build();
     }
     @Bean
     public SolrTemplate solrTemplate(SolrClient client) throws Exception {
